@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "1.5",
   title: "RVC + REALTIME",
-  description: "Easily train a good VC model with voice data <= 10 mins!: https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+  description: "[WINDOWS/LINUX ONLY] Easily train a good VC model with voice data <= 10 mins!: https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
   icon: "icon.png",
   menu: async (kernel) => {
     let installing = await kernel.running(__dirname, "install.js")

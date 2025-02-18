@@ -39,7 +39,10 @@ module.exports = {
       params: {
         venv: "env",
         path: "app",
-        message: "pip install -r requirements.txt"
+        message: [
+          "python -m pip install pip==24.0",
+      "pip install -r requirements.txt"
+        ]
       }
     },
     {
@@ -48,7 +51,10 @@ module.exports = {
       params: {
         venv: "env",
         path: "app",
-        message: "pip install -r requirements-dml.txt"
+        message: [
+          "python -m pip install pip==24.0",
+        "pip install -r requirements-dml.txt"
+        ]
       }
     },
     {
@@ -57,7 +63,10 @@ module.exports = {
       params: {
         venv: "env",
         path: "app",
-        message: "pip install -r requirements-amd.txt"
+        message: [
+          "python -m pip install pip==24.0",
+        "pip install -r requirements-amd.txt"
+        ]
       }
     },
     {
